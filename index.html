@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ar" dir="rtl" data-bs-theme="light" class="h-100">
+<html lang="en" dir="rtl" data-bs-theme="light" class="h-100">
 <head>
 
 <meta charset="utf-8">
@@ -76,6 +76,7 @@
 <link rel="stylesheet" href="/style/animation.css">
 <link rel="stylesheet" href="/style/boot.css">
 <link rel="stylesheet" href="./style/cards.css">
+<link rel="stylesheet" href="./style/MyCSS.css">
 <link rel="stylesheet" href="https://media.zid.store/static/dfa93bae-7aed-4652-ae90-62783e980848/483e7db3-f138-40aa-a9c4-06d33d60ae32/styles.css?v=c5a2ea54a943cf3b73cdf67e68941d6e">
 
 
@@ -117,7 +118,7 @@
 <script type="text/javascript">
     (function () {
     var options = {
-    whatsapp: " 965 ", // WhatsApp number
+    whatsapp: "96550541229", // WhatsApp number
     call_to_action: "راسلنا", // Call to action
     position: "right", // Position may be 'right' or 'left'
     };
@@ -126,7 +127,7 @@
     s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
     var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
     })();
-</script>
+    </script>
 
 
 <script defer>
@@ -249,7 +250,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
         </form> -->
 
-<form class="d-flex flex-column mx-auto w-50" action="/products?search=" method="get" role="search">
+<!-- <form class="d-flex flex-column mx-auto w-50" action="/products?search=" method="get" role="search">
 <div class="d-flex flex-grow-1 input-group">
 <span class="input-group-text bg-secondary bg-opacity-10 border-0 pe-0" data-target="#js-search-input-text">
 <i class="ti ti-microphone" aria-hidden="true" id="js-microphone-icon"></i>
@@ -263,7 +264,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <div class="position-relative d-none z-3 js-search-results">
 <div class="js-autocomplete-items"></div>
 </div>
-</form>
+</form> -->
 
 <div class="position-relative d-none z-3 js-search-results">
 <div class="js-autocomplete-items"></div>
@@ -275,38 +276,17 @@ document.addEventListener('DOMContentLoaded', function() {
     <!--                                 𝗡𝗮𝘃_𝗯𝗮𝗿                                 -->
     <!-- ----------------------------------------------------------------------- ​⁡-->
     <ul class="navbar-nav mb-2 mb-lg-0 me-0">
-    <!-- <li class="nav-item mx-1 dropdown js-profile-account">
-    <a class="nav-link link-secondary" href="/auth/login">
-    <i class="ti ti-user-circle fs-4 !align-middle" data-bs-placement="bottom" data-bs-html="true" data-bs-toggle="tooltip" data-bs-title="<small>تسجيل دخول</small>" data-bs-offset="0,5"></i>
-    <span class="visually-hidden">تسجيل دخول</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-lg-end dropdown-menu-minimal shadow-lg border-0 rounded rounded-3 animated slideIn">
-    <li> -->
-        <li>
-            <img src="./assets/shop-car.svg" alt="shopping cart" width="40px" height="40px" style="cursor:pointer;">
-        </li>
-    <div class="mb-0 dropdown-header">
-    <div class="vstack" hidden>
-    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-building-store" width="40" height="40" viewbox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-    <line x1="3" y1="21" x2="21" y2="21"></line>
-    <path d="M3 7v1a3 3 0 0 0 6 0v-1m0 1a3 3 0 0 0 6 0v-1m0 1a3 3 0 0 0 6 0v-1h-18l2 -4h14l2 4"></path>
-    <line x1="5" y1="21" x2="5" y2="10.85"></line>
-    <line x1="19" y1="21" x2="19" y2="10.85"></line>
-    <path d="M9 21v-4a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v4"></path>
-    </svg>
-    <h6 class="mb-0">
-    مرحبا بك في متجرنا
-    </h6>
-    </div>
-    <div class="vstack gap-2">
     
-    </div>
-    </div>
-    </li>
-    </ul>
-    </li>
-    <li class="nav-item mx-1">
+        <li style="position: relative;">
+            
+            <div id="counter" style="width: 25px; height: 25px; background-color: green; border-radius: 50%;
+            position: absolute; top: -5px; right: -5px; color: white; text-align: center;"> 0 </div>
+            <img src="./assets/shopping-cart_.png" alt="shopping cart" width="40px" height="40px" style="cursor:pointer;" id="CartIcon">
+            
+        </li>
+
+        
+    
     <!-- <a class="nav-link link-secondary position-relative js-language-shipping" title="اللغة والتوصيل" data-bs-toggle="offcanvas" data-bs-target="#offcanvasCountries" aria-controls="offcanvasCountries" href="#"> -->
     <!-- <i class="ti ti-world fs-4 !align-middle" data-bs-placement="bottom" data-bs-html="true" data-bs-toggle="tooltip" data-bs-title="<small>اللغة والتوصيل</small>" data-bs-offset="0,5"></i>
     <span class="visually-hidden">اللغة والتوصيل</span>
@@ -319,11 +299,49 @@ document.addEventListener('DOMContentLoaded', function() {
     <span class="position-absolute top-0 start-100 translate-middle-x badge bg-primary rounded-pill d-none js-cart-badge"></span>
     </a>
     </li> -->
-     </ul>
+    </ul>
     </div>
     </div>
     </nav> -->
-    
+
+    <div id="cart-modal">
+            <div class="shop-head">
+                <span id="close-btn" >X</span>
+                <h2>سلة المشتريات</h2> 
+                <hr>
+            </div>
+                
+            <div id="cart-items">
+                    <!-- <a class="item" href="#">
+                        <img class="del" src="./assets/trash.PNG" alt="delete-icon">
+                        <img src="./assets/Product.jpg"></img>
+                        <div class="pro-info">
+                            <h6>product name</h6>
+                            <div class="price">
+                                <strong>19.99$</strong>
+                                <span>
+                                    <del>10.00$</del>
+                                </span> 
+                            </div>
+                        </div>
+
+                        <div id="quantity">
+                            <button id="minus">-</button>
+                            <span id="num">2</span>
+                            <button id="plus">+</button>
+                        </div>
+                    </a>                      -->
+            </div>
+
+            <div class="buy">
+                <a id="buy" href="./buy.html">
+                    <span> اشتري الان </span>
+                    <strong id="total">  </strong>
+                </a>
+            </div>
+    </div>
+
+            
     <script defer src="https://assets.zid.store/themes/483e7db3-f138-40aa-a9c4-06d33d60ae32/navbar-profile.js"></script>
     <script defer>
     const generateAvatarColor = (selector) => {
@@ -458,119 +476,43 @@ document.addEventListener('DOMContentLoaded', function() {
 <!-- -----------------------------------------------------------------------​⁡ -->
     
 
-<section section-id="1d4d49a8-af27-40a3-a759-e10d06aacd19" class="py-4 p-sm-5 border-top border-secondary border-opacity-10 css-products">
-    <!-- <div class="container">
+<!-- <section section-id="1d4d49a8-af27-40a3-a759-e10d06aacd19" class="py-4 p-sm-5 border-top border-secondary border-opacity-10 css-products">
+    <div class="container">
     <div class="d-flex justify-content-between align-items-center mb-2 mb-sm-3">
     <div class="flex-grow-1">
     <h2 class="h5 py-0 py-sm-2 fw-bold">
-    Our Products
-    </h2>
-    </div> -->
-    <div  id="ourProducts" style="text-align: center;">
-        <strong style="font-size: 2.5rem; text-shadow: 2px 2px #000; color: goldenrod; ">
-            Our_products
-        </strong>
-    </div>
+    شاهي وجار
+    </h2> -->
+    <div class="Pro_header"> 
+        <h2>منتجات Fkaaar</h2>
+    </div> 
+    <section class="Seller" >
 
-
-
-
-    <div class="cards">
-        <div class="card fill-orange" data-card="0"> <img src="./assets/Product.jpg" alt="">
-          <div class="card__icon" data-icon="1"></div>
-          <div class="card__detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium repellendus et incidunt voluptate mollitia voluptatibus officiis? Eaque tempora, et quas maiores aliquam molestias. Aspernatur, beatae culpa explicabo possimus totam voluptatem?</div>
-        </div>
-        <div class="card fill-blue" data-card="1"> <img src="./assets/Product.jpg" alt="">
-          <div class="card__icon" data-icon="2"></div>
-          <div class="card__detail">details</div>
-        </div>
-        <div class="card fill-green" data-card="2"> <img src="./assets/Product.jpg" alt="">
-          <div class="card__icon" data-icon="3"></div>
-          <div class="card__detail">details</div>
-        </div>
-      </div>
-
-      <script>
-        /*
-  @method Cards
-  @description this is for label based radio navigation to change the labels style to 'active'
- */
-  const Cards = ((() => {
-    /*
-     * @description dom loaded event listener
-     */
-    window.addEventListener('DOMContentLoaded', () => {setTimeout(init,1)}, true);
-  
-    /*
-     * @method init
-     * @parameter e {event}
-     * @description initiates event listeners on all cards
-     */
-    function init(e)
-    {
-      if(document.querySelector(".cards"))
-      {
-        let cards = document.querySelector(".cards");
-        cards.addEventListener('click', clicked, false);
-        document.querySelectorAll(".cards .card")[1].click();
-      }
-    }
-  
-    /*
-     * @method clicked
-     * @parameter e {event}
-     * @description this is the callback from the assigned event listener binding
-     */
-    function clicked(e)
-    {
-      let card = e.target;
-      if(card.getAttribute("data-card")){rearrange(card.getAttribute("data-card"));}
-    }
-  
-    /*
-     * @method rearrange
-     * @parameter card {object}
-     * @description this is the callback from the assigned event listener binding
-     */
-    function rearrange(card)
-    {
-      let cards = document.querySelectorAll(".cards .card");
-      for(let n = 0; n < cards.length; n++)
-      {
-        cards[n].classList.remove("card--left");
-        cards[n].classList.remove("card--center");
-        cards[n].classList.remove("card--right");
-      }
-      cards[card].classList.add("card--center");
-      if(card == 0)
-      {
-        cards[2].classList.add("card--left");
-        cards[1].classList.add("card--right");
-      }
-      if(card == 1)
-      {
-        cards[0].classList.add("card--left");
-        cards[2].classList.add("card--right");
-      }
-      if(card == 2)
-      {
-        cards[1].classList.add("card--left");
-        cards[0].classList.add("card--right");
-      }
-    }
-  
-    return {
-      init
-    }
-  })());
-      </script>
-
-<!-- <a href="https://abubakersaeed.netlify.app/designs/d10-parallax-tilt-effect-cards" class="abs-site-link" rel="nofollow noreferrer" target="_blank">abs/designs/d10-parallax-tilt-effect-cards</a> -->
-<!-- </section> -->
-
-<!-- <a href="https://abubakersaeed.netlify.app/designs/d10-parallax-tilt-effect-cards" class="abs-site-link" rel="nofollow noreferrer" target="_blank">abs/designs/d10-parallax-tilt-effect-cards</a> -->
-    </section>
+        <div class="box">
     
+            <section class="cards">
+
+
+            </section>
+        </div>
+    </section>
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+    <div class="Pro_header"> 
+        <h2>الاكثر مبيعا</h2>
+    </div> <br><br>
+    <section class="Seller" >
+
+        <div class="box">
+    
+            <section class="cards_2">
+
+
+            </section>
+        </div>
+    </section>
+
 
 
 
@@ -706,684 +648,13 @@ document.addEventListener('DOMContentLoaded', function() {
     src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
 </script>
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-<script type="module" src="./script.js"></script>
+<script type="module" src="./Front-End/script.js"></script>
 
 <!--⁡⁢⁣⁢​‌‍‌ ----------------------------------------------------------------------- -->
 <!--                               New_section                               -->
 <!-- -----------------------------------------------------------------------​⁡ -->
 
-    
-    <!-- <section section-id="4dfabeb3-9972-4a36-bb6e-6a78ff3fe468" class="py-4 p-sm-5 border-top border-secondary border-opacity-10 css-products">
-    <div class="container">
-    <div class="d-flex justify-content-between align-items-center mb-2 mb-sm-3">
-    <div class="flex-grow-1">
-    <h2 class="h5 py-0 py-sm-2 fw-bold">
-    الأكثر مبيعاً
-    </h2>
-    </div>
-    <div class="position-relative mt-0 mt-sm-3 z-1">
-    <div class="swiper-button-next swiper-button-next-sm swiper-button-next-4dfabeb3-9972-4a36-bb6e-6a78ff3fe468 link-secondary bg-light-subtle rounded-pill gradient-link"></div>
-    <div class="swiper-button-prev swiper-button-prev-sm swiper-button-prev-4dfabeb3-9972-4a36-bb6e-6a78ff3fe468 link-secondary bg-light-subtle rounded-pill gradient-link"></div>
-    </div>
-    </div>
-    <div class="swiper-container js-anime-widget animate__animated animate__fadeIn animate__delay-1s" data-swiper="{
-                        &quot;navigation&quot;: {
-                                                        &quot;nextEl&quot;: &quot;.swiper-button-prev-4dfabeb3-9972-4a36-bb6e-6a78ff3fe468&quot;,
-                                &quot;prevEl&quot;: &quot;.swiper-button-next-4dfabeb3-9972-4a36-bb6e-6a78ff3fe468&quot;
-                                                },
-                        &quot;slidesPerView&quot;: 2,
-                        &quot;spaceBetween&quot;: 10,
-                        &quot;breakpoints&quot;: {
-    
-                            &quot;576&quot;: {
-                                &quot;slidesPerView&quot;: 3,
-                                &quot;spaceBetween&quot;: 10
-                            },
-                            &quot;768&quot;: {
-                                &quot;slidesPerView&quot;: 4,
-                                &quot;spaceBetween&quot;: 10
-                            },
-                            &quot;992&quot;: {
-                                &quot;slidesPerView&quot;: 5,
-                                &quot;spaceBetween&quot;: 10
-    
-                            },
-                            &quot;1200&quot;: {
-                                &quot;slidesPerView&quot;: 6,
-                                &quot;spaceBetween&quot;: 10
-                            }
-                        }
-                        }">
-    <div class="swiper-wrapper">
-    <div class="swiper-slide position-relative">
-    <div class="card card-product bg-transparent border-secondary border-opacity-25 rounded-3 h-100 js-card-item">
-    <div class="js-card-top">
-    <div class="d-flex justify-content-center py-4 js-loaded-spinner">
-    <div class="spinner-border text-primary" role="status">
-    <span class="visually-hidden">...جاري التحميل</span>
-    </div>
-    </div>
-    <div class="d-none overflow-hidden position-relative rounded-top bg-primary bg-opacity-10 zooming js-loaded-image">
-    <a href="/products/cooffeesaudi" title="قهوة سعودية ( هيل وزعفران )" class="css-thumbnail">
-    <img src="https://media.zid.store/thumbs/dfa93bae-7aed-4652-ae90-62783e980848/d14653e6-cbbf-432f-8a0f-e94f1e6f3b9e-thumbnail-1000x1000-70.jpg" alt="قهوة سعودية ( هيل وزعفران )" class="mx-auto card-img-top rounded-0 img-fluid swiper-lazy">
-    </a>
-    <div class="swiper-lazy-preloader align-self-center"></div>
-    <span class="d-none position-absolute top-0 start-0 badge bg-light-subtle text-dark-emphasis shadow-lg border border-secondary-subtle rounded-pill mt-3 ms-3 px-2 fw-light small" data-bundle-offer-product-id="1c81bcd7-103b-4663-bfa4-8dba024fd263"></span>
-    </div>
-    </div>
-    <div class="card-body list-group list-group-flush px-0 border-0 py-0">
-    <h2 class="list-group-item border-0 border-secondary border-opacity-10 lh-base h6 py-1 mb-0">
-    <a href="/products/cooffeesaudi" title="قهوة سعودية ( هيل وزعفران )" class="text-dark-emphasis">
-    قهوة سعودية ( هيل وزعفران )
-    </a>
-    </h2>
-    </div>
-    <div class="border-0 border-secondary border-opacity-10 px-3 py-1 d-flex flex-wrap justify-content-start align-items-center gap-2">
-    <div class="text-start overflow-hidden d-inline-block small">
-    <strong class="fw-bold text-body">39.00 ر.س </strong>
-    </div>
-    </div>
-    <div class="card-footer bg-transparent border-0">
-    <div class="btn-group btn-group-sm d-grid gap-2">
-    <button type="button" class="btn btn-primary js-add-to-cart" onclick="productCartAddToCart(this,'1c81bcd7-103b-4663-bfa4-8dba024fd263')">
-    <i class="ti ti-circle-plus align-middle fs-6" aria-hidden="true"></i>
-    <span class="px-1">أضف إلى السلة</span>
-    <span class="visually-hidden">أضف إلى السلة
-    قهوة سعودية ( هيل وزعفران )</span>
-    </button>
-    </div>
-    </div>
-    </div>
-    </div>
-    <div class="swiper-slide position-relative">
-    <div class="card card-product bg-transparent border-secondary border-opacity-25 rounded-3 h-100 js-card-item">
-    <div class="js-card-top">
-    <div class="d-flex justify-content-center py-4 js-loaded-spinner">
-    <div class="spinner-border text-primary" role="status">
-    <span class="visually-hidden">...جاري التحميل</span>
-    </div>
-    </div>
-    <div class="d-none overflow-hidden position-relative rounded-top bg-primary bg-opacity-10 zooming js-loaded-image">
-    <a href="/products/mat" title="بكج القهوة " class="css-thumbnail">
-    <img src="https://media.zid.store/thumbs/dfa93bae-7aed-4652-ae90-62783e980848/4061aabe-4a2f-4a8d-9cc9-4cd410a7d804-thumbnail-1000x1000-70.jpg" alt="بكج القهوة " class="mx-auto card-img-top rounded-0 img-fluid swiper-lazy">
-    </a>
-    <div class="swiper-lazy-preloader align-self-center"></div>
-    <span class="d-none position-absolute top-0 start-0 badge bg-light-subtle text-dark-emphasis shadow-lg border border-secondary-subtle rounded-pill mt-3 ms-3 px-2 fw-light small" data-bundle-offer-product-id="63a624bd-e9c2-4be2-b8a8-75ce42419b46"></span>
-    </div>
-    </div>
-    <div class="card-body list-group list-group-flush px-0 border-0 py-0">
-    <h2 class="list-group-item border-0 border-secondary border-opacity-10 lh-base h6 py-1 mb-0">
-    <a href="/products/mat" title="بكج القهوة " class="text-dark-emphasis">
-    بكج القهوة
-    </a>
-    </h2>
-    </div>
-    <div class="border-0 border-secondary border-opacity-10 px-3 py-1 d-flex flex-wrap justify-content-start align-items-center gap-2">
-    <div class="text-start overflow-hidden d-inline-block small">
-    <strong class="fw-bold text-body">191.00 ر.س </strong>
-    </div>
-    </div>
-    <div class="card-footer bg-transparent border-0">
-    <div class="btn-group btn-group-sm d-grid gap-2">
-    <button type="button" class="btn btn-primary js-add-to-cart" onclick="productCartAddToCart(this,'63a624bd-e9c2-4be2-b8a8-75ce42419b46')">
-    <i class="ti ti-circle-plus align-middle fs-6" aria-hidden="true"></i>
-    <span class="px-1">أضف إلى السلة</span>
-    <span class="visually-hidden">أضف إلى السلة
-    بكج القهوة </span>
-    </button>
-    </div>
-    </div>
-    </div>
-    </div>
-    <div class="swiper-slide position-relative">
-    <div class="card card-product bg-transparent border-secondary border-opacity-25 rounded-3 h-100 js-card-item">
-    <div class="js-card-top">
-    <div class="d-flex justify-content-center py-4 js-loaded-spinner">
-    <div class="spinner-border text-primary" role="status">
-    <span class="visually-hidden">...جاري التحميل</span>
-    </div>
-    </div>
-    <div class="d-none overflow-hidden position-relative rounded-top bg-primary bg-opacity-10 zooming js-loaded-image">
-    <a href="/products/bk44" title="بكج وجار " class="css-thumbnail">
-    <img src="https://media.zid.store/thumbs/dfa93bae-7aed-4652-ae90-62783e980848/95c5ae72-ab50-4c81-add4-9ac9de3de0f4-thumbnail-1000x1000-70.jpg" alt="بكج وجار " class="mx-auto card-img-top rounded-0 img-fluid swiper-lazy">
-    </a>
-    <div class="swiper-lazy-preloader align-self-center"></div>
-    <span class="d-none position-absolute top-0 start-0 badge bg-light-subtle text-dark-emphasis shadow-lg border border-secondary-subtle rounded-pill mt-3 ms-3 px-2 fw-light small" data-bundle-offer-product-id="525d8165-3814-4056-aab5-c8f8b1d20305"></span>
-    </div>
-    </div>
-    <div class="card-body list-group list-group-flush px-0 border-0 py-0">
-    <h2 class="list-group-item border-0 border-secondary border-opacity-10 lh-base h6 py-1 mb-0">
-    <a href="/products/bk44" title="بكج وجار " class="text-dark-emphasis">
-    بكج وجار
-    </a>
-    </h2>
-    <div class="list-group-item border-0 border-secondary border-opacity-10 py-1 text-primary">
-    <small>
-    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-star-fill" viewbox="0 0 16 16">
-    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-    </svg>
-    <span class="visually-hidden">نجمة كاملة</span>
-    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-star-fill" viewbox="0 0 16 16">
-    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-    </svg>
-    <span class="visually-hidden">نجمة كاملة</span>
-    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-star-fill" viewbox="0 0 16 16">
-    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-    </svg>
-    <span class="visually-hidden">نجمة كاملة</span>
-    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-star-fill" viewbox="0 0 16 16">
-    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-    </svg>
-    <span class="visually-hidden">نجمة كاملة</span>
-    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-star-fill" viewbox="0 0 16 16">
-    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-    </svg>
-    <span class="visually-hidden">نجمة كاملة</span>
-    </small>
-    </div>
-    </div>
-    <div class="border-0 border-secondary border-opacity-10 px-3 py-1 d-flex flex-wrap justify-content-start align-items-center gap-2">
-    <div class="text-start overflow-hidden d-inline-block small">
-    <strong class="fw-bold text-body">285.00 ر.س </strong>
-    </div>
-    </div>
-    <div class="card-footer bg-transparent border-0">
-    <div class="btn-group btn-group-sm d-grid gap-2">
-    <button type="button" class="btn btn-primary js-add-to-cart" onclick="productCartAddToCart(this,'525d8165-3814-4056-aab5-c8f8b1d20305')">
-    <i class="ti ti-circle-plus align-middle fs-6" aria-hidden="true"></i>
-    <span class="px-1">أضف إلى السلة</span>
-    <span class="visually-hidden">أضف إلى السلة
-    بكج وجار </span>
-    </button>
-    </div>
-    </div>
-    </div>
-    </div>
-    <div class="swiper-slide position-relative">
-    <div class="card card-product bg-transparent border-secondary border-opacity-25 rounded-3 h-100 js-card-item">
-    <div class="js-card-top">
-    <div class="d-flex justify-content-center py-4 js-loaded-spinner">
-    <div class="spinner-border text-primary" role="status">
-    <span class="visually-hidden">...جاري التحميل</span>
-    </div>
-    </div>
-    <div class="d-none overflow-hidden position-relative rounded-top bg-primary bg-opacity-10 zooming js-loaded-image">
-    <a href="/products/ASD10" title="لعبة بلوت وجار" class="css-thumbnail">
-    <img src="https://media.zid.store/thumbs/dfa93bae-7aed-4652-ae90-62783e980848/69a62e2e-2bf2-424a-a924-7f073b88a1ca-thumbnail-1000x1000-70.jpg" alt="لعبة بلوت وجار" class="mx-auto card-img-top rounded-0 img-fluid swiper-lazy">
-    </a>
-    <div class="swiper-lazy-preloader align-self-center"></div>
-    <span class="d-none position-absolute top-0 start-0 badge bg-light-subtle text-dark-emphasis shadow-lg border border-secondary-subtle rounded-pill mt-3 ms-3 px-2 fw-light small" data-bundle-offer-product-id="21a2a519-1a04-4bbb-b83d-9b51277c8595"></span>
-    </div>
-    </div>
-    <div class="card-body list-group list-group-flush px-0 border-0 py-0">
-    <h2 class="list-group-item border-0 border-secondary border-opacity-10 lh-base h6 py-1 mb-0">
-    <a href="/products/ASD10" title="لعبة بلوت وجار" class="text-dark-emphasis">
-    لعبة بلوت وجار
-    </a>
-    </h2>
-    </div>
-    <div class="border-0 border-secondary border-opacity-10 px-3 py-1 d-flex flex-wrap justify-content-start align-items-center gap-2">
-    <div class="text-start overflow-hidden d-inline-block small">
-    <strong class="fw-bold text-body">21.00 ر.س </strong>
-    </div>
-    </div>
-    <div class="card-footer bg-transparent border-0">
-    <div class="btn-group btn-group-sm d-grid gap-2">
-    <button type="button" class="btn btn-primary js-add-to-cart" onclick="productCartAddToCart(this,'21a2a519-1a04-4bbb-b83d-9b51277c8595')">
-    <i class="ti ti-circle-plus align-middle fs-6" aria-hidden="true"></i>
-    <span class="px-1">أضف إلى السلة</span>
-    <span class="visually-hidden">أضف إلى السلة
-    لعبة بلوت وجار</span>
-    </button>
-    </div>
-    </div>
-    </div>
-    </div>
-    <div class="swiper-slide position-relative">
-    <div class="card card-product bg-transparent border-secondary border-opacity-25 rounded-3 h-100 js-card-item">
-    <div class="js-card-top">
-    <div class="d-flex justify-content-center py-4 js-loaded-spinner">
-    <div class="spinner-border text-primary" role="status">
-    <span class="visually-hidden">...جاري التحميل</span>
-    </div>
-    </div>
-    <div class="d-none overflow-hidden position-relative rounded-top bg-primary bg-opacity-10 zooming js-loaded-image">
-    <a href="/products/bk687" title="بوكس وجـــار" class="css-thumbnail">
-    <img src="https://media.zid.store/thumbs/dfa93bae-7aed-4652-ae90-62783e980848/d66f87b4-2052-4911-9d1a-959844af3c98-thumbnail-1000x1000-70.jpg" alt="بوكس وجـــار" class="mx-auto card-img-top rounded-0 img-fluid swiper-lazy">
-    </a>
-    <div class="swiper-lazy-preloader align-self-center"></div>
-    <span class="d-none position-absolute top-0 start-0 badge bg-light-subtle text-dark-emphasis shadow-lg border border-secondary-subtle rounded-pill mt-3 ms-3 px-2 fw-light small" data-bundle-offer-product-id="8cd33464-dc02-438e-9bb0-85334d19b2ec"></span>
-    </div>
-    </div>
-    <div class="card-body list-group list-group-flush px-0 border-0 py-0">
-    <h2 class="list-group-item border-0 border-secondary border-opacity-10 lh-base h6 py-1 mb-0">
-    <a href="/products/bk687" title="بوكس وجـــار" class="text-dark-emphasis">
-    بوكس وجـــار
-    </a>
-    </h2>
-    <div class="list-group-item border-0 border-secondary border-opacity-10 py-1 text-primary">
-    <small>
-    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-star-fill" viewbox="0 0 16 16">
-    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-    </svg>
-    <span class="visually-hidden">نجمة كاملة</span>
-    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-star-fill" viewbox="0 0 16 16">
-    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-    </svg>
-    <span class="visually-hidden">نجمة كاملة</span>
-    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-star-fill" viewbox="0 0 16 16">
-    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-    </svg>
-    <span class="visually-hidden">نجمة كاملة</span>
-    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-star-fill" viewbox="0 0 16 16">
-    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-    </svg>
-    <span class="visually-hidden">نجمة كاملة</span>
-    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-star-fill" viewbox="0 0 16 16">
-    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-    </svg>
-    <span class="visually-hidden">نجمة كاملة</span>
-    </small>
-    </div>
-    </div>
-    <div class="border-0 border-secondary border-opacity-10 px-3 py-1 d-flex flex-wrap justify-content-start align-items-center gap-2">
-    <div class="text-start overflow-hidden d-inline-block small">
-    <strong class="fw-bold text-body">63.00 ر.س </strong>
-    </div>
-    </div>
-    <div class="card-footer bg-transparent border-0">
-    <div class="btn-group btn-group-sm d-grid gap-2">
-    <button type="button" class="btn btn-primary js-add-to-cart" onclick="productCartAddToCart(this,'8cd33464-dc02-438e-9bb0-85334d19b2ec')">
-    <i class="ti ti-circle-plus align-middle fs-6" aria-hidden="true"></i>
-    <span class="px-1">أضف إلى السلة</span>
-    <span class="visually-hidden">أضف إلى السلة
-    بوكس وجـــار</span>
-    </button>
-    </div>
-    </div>
-    </div>
-    </div>
-    <div class="swiper-slide position-relative">
-    <div class="card card-product bg-transparent border-secondary border-opacity-25 rounded-3 h-100 js-card-item">
-    <div class="js-card-top">
-    <div class="d-flex justify-content-center py-4 js-loaded-spinner">
-    <div class="spinner-border text-primary" role="status">
-    <span class="visually-hidden">...جاري التحميل</span>
-    </div>
-    </div>
-    <div class="d-none overflow-hidden position-relative rounded-top bg-primary bg-opacity-10 zooming js-loaded-image">
-    <a href="/products/حب-ومكسرات" title="تشكيلة من المكسرات التايلندية" class="css-thumbnail">
-    <img src="https://media.zid.store/thumbs/dfa93bae-7aed-4652-ae90-62783e980848/0568edda-4107-48a8-b5a8-557d7e994fa7-thumbnail-1000x1000-70.jpg" alt="تشكيلة من المكسرات التايلندية" class="mx-auto card-img-top rounded-0 img-fluid swiper-lazy">
-    </a>
-    <div class="swiper-lazy-preloader align-self-center"></div>
-    <span class="d-none position-absolute top-0 start-0 badge bg-light-subtle text-dark-emphasis shadow-lg border border-secondary-subtle rounded-pill mt-3 ms-3 px-2 fw-light small" data-bundle-offer-product-id="90ee9ef7-25d6-4508-9430-74854a538537"></span>
-    </div>
-    </div>
-    <div class="card-body list-group list-group-flush px-0 border-0 py-0">
-    <h2 class="list-group-item border-0 border-secondary border-opacity-10 lh-base h6 py-1 mb-0">
-    <a href="/products/حب-ومكسرات" title="تشكيلة من المكسرات التايلندية" class="text-dark-emphasis">
-    تشكيلة من المكسرات التايلندية
-    </a>
-    </h2>
-    <div class="list-group-item border-0 border-secondary border-opacity-10 py-0">
-    <span class="small badge text-warning-emphasis px-0 rounded-pill">
-    <i class="ti ti-regex-off align-middle" aria-hidden="true"></i>
-    <span>
-    متوفر بعدة خيارات
-    </span>
-    </span>
-    </div>
-    </div>
-    <div class="border-0 border-secondary border-opacity-10 px-3 py-1 d-flex flex-wrap justify-content-start align-items-center gap-2">
-    <div class="text-start overflow-hidden d-inline-block small">
-    <strong class="fw-bold text-body">17.00 ر.س </strong>
-    </div>
-    </div>
-    <div class="card-footer bg-transparent border-0">
-    <div class="btn-group btn-group-sm d-grid gap-2">
-    <a type="button" class="btn btn-primary" href="/products/حب-ومكسرات">
-    <i class="ti ti-brand-appgallery align-middle fs-6" aria-hidden="true"></i>
-    <span class="px-1">استعرض المنتج</span>
-    <span class="visually-hidden">استعرض المنتج
-    تشكيلة من المكسرات التايلندية</span>
-    </a>
-    </div>
-    </div>
-    </div>
-    </div>
-    <div class="swiper-slide position-relative">
-    <div class="card card-product bg-transparent border-secondary border-opacity-25 rounded-3 h-100 js-card-item">
-    <div class="js-card-top">
-    <div class="d-flex justify-content-center py-4 js-loaded-spinner">
-    <div class="spinner-border text-primary" role="status">
-    <span class="visually-hidden">...جاري التحميل</span>
-    </div>
-    </div>
-    <div class="d-none overflow-hidden position-relative rounded-top bg-primary bg-opacity-10 zooming js-loaded-image">
-    <a href="/products/مكسرات-وجـار" title="مكسرات وجـــــار اكسترا" class="css-thumbnail">
-    <img src="https://media.zid.store/thumbs/dfa93bae-7aed-4652-ae90-62783e980848/f0c31a22-9fd7-4b49-b90d-fd282b98946f-thumbnail-1000x1000-70.jpg" alt="مكسرات وجـــــار اكسترا" class="mx-auto card-img-top rounded-0 img-fluid swiper-lazy">
-    </a>
-    <div class="swiper-lazy-preloader align-self-center"></div>
-    <span class="d-none position-absolute top-0 start-0 badge bg-light-subtle text-dark-emphasis shadow-lg border border-secondary-subtle rounded-pill mt-3 ms-3 px-2 fw-light small" data-bundle-offer-product-id="63c343b3-866a-4935-bdb5-07e5d4d71937"></span>
-    </div>
-    </div>
-    <div class="card-body list-group list-group-flush px-0 border-0 py-0">
-    <h2 class="list-group-item border-0 border-secondary border-opacity-10 lh-base h6 py-1 mb-0">
-    <a href="/products/مكسرات-وجـار" title="مكسرات وجـــــار اكسترا" class="text-dark-emphasis">
-    مكسرات وجـــــار اكسترا
-    </a>
-    </h2>
-    <div class="list-group-item border-0 border-secondary border-opacity-10 py-0">
-    <span class="small badge text-warning-emphasis px-0 rounded-pill">
-    <i class="ti ti-regex-off align-middle" aria-hidden="true"></i>
-    <span>
-    متوفر بعدة خيارات
-    </span>
-    </span>
-    </div>
-    </div>
-    <div class="border-0 border-secondary border-opacity-10 px-3 py-1 d-flex flex-wrap justify-content-start align-items-center gap-2">
-    <div class="text-start overflow-hidden d-inline-block small">
-    <strong class="fw-bold text-body">29.00 ر.س </strong>
-    </div>
-    </div>
-    <div class="card-footer bg-transparent border-0">
-    <div class="btn-group btn-group-sm d-grid gap-2">
-    <a type="button" class="btn btn-primary" href="/products/مكسرات-وجـار">
-    <i class="ti ti-brand-appgallery align-middle fs-6" aria-hidden="true"></i>
-    <span class="px-1">استعرض المنتج</span>
-    <span class="visually-hidden">استعرض المنتج
-    مكسرات وجـــــار اكسترا</span>
-    </a>
-    </div>
-    </div>
-    </div>
-    </div>
-    <div class="swiper-slide position-relative">
-    <div class="card card-product bg-transparent border-secondary border-opacity-25 rounded-3 h-100 js-card-item">
-    <div class="js-card-top">
-    <div class="d-flex justify-content-center py-4 js-loaded-spinner">
-    <div class="spinner-border text-primary" role="status">
-    <span class="visually-hidden">...جاري التحميل</span>
-    </div>
-    </div>
-    <div class="d-none overflow-hidden position-relative rounded-top bg-primary bg-opacity-10 zooming js-loaded-image">
-    <a href="/products/تمر-خلاص" title="تمر خلاص مجروش VIP" class="css-thumbnail">
-    <img src="https://media.zid.store/thumbs/dfa93bae-7aed-4652-ae90-62783e980848/77f613bb-1af0-47ef-b609-84f32483be56-thumbnail-1000x1000-70.jpg" alt="تمر خلاص مجروش VIP" class="mx-auto card-img-top rounded-0 img-fluid swiper-lazy">
-    </a>
-    <div class="swiper-lazy-preloader align-self-center"></div>
-    <span class="d-none position-absolute top-0 start-0 badge bg-light-subtle text-dark-emphasis shadow-lg border border-secondary-subtle rounded-pill mt-3 ms-3 px-2 fw-light small" data-bundle-offer-product-id="17725427-c89c-44b3-bf49-350b352e86b5"></span>
-    </div>
-    </div>
-    <div class="card-body list-group list-group-flush px-0 border-0 py-0">
-    <h2 class="list-group-item border-0 border-secondary border-opacity-10 lh-base h6 py-1 mb-0">
-    <a href="/products/تمر-خلاص" title="تمر خلاص مجروش VIP" class="text-dark-emphasis">
-    تمر خلاص مجروش VIP
-    </a>
-    </h2>
-    </div>
-    <div class="border-0 border-secondary border-opacity-10 px-3 py-1 d-flex flex-wrap justify-content-start align-items-center gap-2">
-    <div class="text-start overflow-hidden d-inline-block small">
-    <strong class="fw-bold text-body">12.00 ر.س </strong>
-    </div>
-    </div>
-    <div class="card-footer bg-transparent border-0">
-    <div class="btn-group btn-group-sm d-grid gap-2">
-    <button type="button" class="btn btn-primary js-add-to-cart" onclick="productCartAddToCart(this,'17725427-c89c-44b3-bf49-350b352e86b5')">
-    <i class="ti ti-circle-plus align-middle fs-6" aria-hidden="true"></i>
-    <span class="px-1">أضف إلى السلة</span>
-    <span class="visually-hidden">أضف إلى السلة
-    تمر خلاص مجروش VIP</span>
-    </button>
-    </div>
-    </div>
-    </div>
-    </div>
-    <div class="swiper-slide position-relative">
-    <div class="card card-product bg-transparent border-secondary border-opacity-25 rounded-3 h-100 js-card-item">
-    <div class="js-card-top">
-    <div class="d-flex justify-content-center py-4 js-loaded-spinner">
-    <div class="spinner-border text-primary" role="status">
-    <span class="visually-hidden">...جاري التحميل</span>
-    </div>
-    </div>
-    <div class="d-none overflow-hidden position-relative rounded-top bg-primary bg-opacity-10 zooming js-loaded-image">
-    <a href="/products/خلطة-كرك" title="خلطة كرك وجار 250جم" class="css-thumbnail">
-    <img src="https://media.zid.store/thumbs/dfa93bae-7aed-4652-ae90-62783e980848/c70bf75f-a882-48ab-8d9f-8985063ddde2-thumbnail-1000x1000-70.jpg" alt="خلطة كرك وجار 250جم" class="mx-auto card-img-top rounded-0 img-fluid swiper-lazy">
-    </a>
-    <div class="swiper-lazy-preloader align-self-center"></div>
-    <span class="d-none position-absolute top-0 start-0 badge bg-light-subtle text-dark-emphasis shadow-lg border border-secondary-subtle rounded-pill mt-3 ms-3 px-2 fw-light small" data-bundle-offer-product-id="9d8ded28-cd4b-4b86-8af3-d5b8adccf3f8"></span>
-    </div>
-    </div>
-    <div class="card-body list-group list-group-flush px-0 border-0 py-0">
-    <h2 class="list-group-item border-0 border-secondary border-opacity-10 lh-base h6 py-1 mb-0">
-    <a href="/products/خلطة-كرك" title="خلطة كرك وجار 250جم" class="text-dark-emphasis">
-    خلطة كرك وجار 250جم
-    </a>
-    </h2>
-    </div>
-    <div class="border-0 border-secondary border-opacity-10 px-3 py-1 d-flex flex-wrap justify-content-start align-items-center gap-2">
-    <div class="text-start overflow-hidden d-inline-block small">
-    <strong class="fw-bold text-body">36.00 ر.س </strong>
-    </div>
-    </div>
-    <div class="card-footer bg-transparent border-0">
-    <div class="btn-group btn-group-sm d-grid gap-2">
-    <button type="button" class="btn btn-primary js-add-to-cart" onclick="productCartAddToCart(this,'9d8ded28-cd4b-4b86-8af3-d5b8adccf3f8')">
-    <i class="ti ti-circle-plus align-middle fs-6" aria-hidden="true"></i>
-    <span class="px-1">أضف إلى السلة</span>
-    <span class="visually-hidden">أضف إلى السلة
-    خلطة كرك وجار 250جم</span>
-    </button>
-    </div>
-    </div>
-    </div>
-    </div>
-    <div class="swiper-slide position-relative">
-    <div class="card card-product bg-transparent border-secondary border-opacity-25 rounded-3 h-100 js-card-item">
-    <div class="js-card-top">
-    <div class="d-flex justify-content-center py-4 js-loaded-spinner">
-    <div class="spinner-border text-primary" role="status">
-    <span class="visually-hidden">...جاري التحميل</span>
-    </div>
-    </div>
-    <div class="d-none overflow-hidden position-relative rounded-top bg-primary bg-opacity-10 zooming js-loaded-image">
-    <a href="/products/فصفص-مغربي" title="فصفص مغربي محمص" class="css-thumbnail">
-    <img src="https://media.zid.store/thumbs/dfa93bae-7aed-4652-ae90-62783e980848/b819b199-22ed-4866-87e4-013cd863c8e0-thumbnail-1000x1000-70.jpg" alt="فصفص مغربي محمص" class="mx-auto card-img-top rounded-0 img-fluid swiper-lazy">
-    </a>
-    <div class="swiper-lazy-preloader align-self-center"></div>
-    <span class="d-none position-absolute top-0 start-0 badge bg-light-subtle text-dark-emphasis shadow-lg border border-secondary-subtle rounded-pill mt-3 ms-3 px-2 fw-light small" data-bundle-offer-product-id="41bdcff1-7f2e-43f9-ae23-583817ca4b1e"></span>
-    </div>
-    </div>
-    <div class="card-body list-group list-group-flush px-0 border-0 py-0">
-    <h2 class="list-group-item border-0 border-secondary border-opacity-10 lh-base h6 py-1 mb-0">
-    <a href="/products/فصفص-مغربي" title="فصفص مغربي محمص" class="text-dark-emphasis">
-    فصفص مغربي محمص
-    </a>
-    </h2>
-    </div>
-    <div class="border-0 border-secondary border-opacity-10 px-3 py-1 d-flex flex-wrap justify-content-start align-items-center gap-2">
-    <div class="text-start overflow-hidden d-inline-block small">
-    <strong class="fw-bold text-body">26.00 ر.س </strong>
-    </div>
-    </div>
-    <div class="card-footer bg-transparent border-0">
-    <div class="btn-group btn-group-sm d-grid gap-2">
-    <button type="button" class="btn btn-primary js-add-to-cart" onclick="productCartAddToCart(this,'41bdcff1-7f2e-43f9-ae23-583817ca4b1e')">
-    <i class="ti ti-circle-plus align-middle fs-6" aria-hidden="true"></i>
-    <span class="px-1">أضف إلى السلة</span>
-    <span class="visually-hidden">أضف إلى السلة
-    فصفص مغربي محمص</span>
-    </button>
-    </div>
-    </div>
-    </div>
-    </div>
-    <div class="swiper-slide position-relative">
-    <div class="card card-product bg-transparent border-secondary border-opacity-25 rounded-3 h-100 js-card-item">
-    <div class="js-card-top">
-    <div class="d-flex justify-content-center py-4 js-loaded-spinner">
-    <div class="spinner-border text-primary" role="status">
-    <span class="visually-hidden">...جاري التحميل</span>
-    </div>
-    </div>
-    <div class="d-none overflow-hidden position-relative rounded-top bg-primary bg-opacity-10 zooming js-loaded-image">
-    <a href="/products/طحينة-سمسم-" title="طحينة وجار" class="css-thumbnail">
-    <img src="https://media.zid.store/thumbs/dfa93bae-7aed-4652-ae90-62783e980848/f3774362-8e7a-44fb-b848-ddd118a0f34b-thumbnail-1000x1000-70.jpg" alt="طحينة وجار" class="mx-auto card-img-top rounded-0 img-fluid swiper-lazy">
-    </a>
-    <div class="swiper-lazy-preloader align-self-center"></div>
-    <span class="d-none position-absolute top-0 start-0 badge bg-light-subtle text-dark-emphasis shadow-lg border border-secondary-subtle rounded-pill mt-3 ms-3 px-2 fw-light small" data-bundle-offer-product-id="15cd7d4a-38d9-48f2-8fae-c4af979c38f7"></span>
-    </div>
-    </div>
-    <div class="card-body list-group list-group-flush px-0 border-0 py-0">
-    <h2 class="list-group-item border-0 border-secondary border-opacity-10 lh-base h6 py-1 mb-0">
-    <a href="/products/طحينة-سمسم-" title="طحينة وجار" class="text-dark-emphasis">
-    طحينة وجار
-    </a>
-    </h2>
-    </div>
-    <div class="border-0 border-secondary border-opacity-10 px-3 py-1 d-flex flex-wrap justify-content-start align-items-center gap-2">
-    <div class="text-start overflow-hidden d-inline-block small">
-    <strong class="fw-bold text-body">17.00 ر.س </strong>
-    </div>
-    </div>
-    <div class="card-footer bg-transparent border-0">
-    <div class="btn-group btn-group-sm d-grid gap-2">
-    <button type="button" class="btn btn-primary js-add-to-cart" onclick="productCartAddToCart(this,'15cd7d4a-38d9-48f2-8fae-c4af979c38f7')">
-    <i class="ti ti-circle-plus align-middle fs-6" aria-hidden="true"></i>
-    <span class="px-1">أضف إلى السلة</span>
-    <span class="visually-hidden">أضف إلى السلة
-    طحينة وجار</span>
-    </button>
-    </div>
-    </div>
-    </div>
-    </div>
-    <div class="swiper-slide position-relative">
-    <div class="card card-product bg-transparent border-secondary border-opacity-25 rounded-3 h-100 js-card-item">
-    <div class="js-card-top">
-    <div class="d-flex justify-content-center py-4 js-loaded-spinner">
-    <div class="spinner-border text-primary" role="status">
-    <span class="visually-hidden">...جاري التحميل</span>
-    </div>
-    </div>
-    <div class="d-none overflow-hidden position-relative rounded-top bg-primary bg-opacity-10 zooming js-loaded-image">
-    <a href="/products/عويدي-مسمار" title="مسمار ( عويدي )" class="css-thumbnail">
-    <img src="https://media.zid.store/thumbs/dfa93bae-7aed-4652-ae90-62783e980848/cdb8d816-3bd4-4f14-be84-772cbd6ea51b-thumbnail-1000x1000-70.jpg" alt="مسمار ( عويدي )" class="mx-auto card-img-top rounded-0 img-fluid swiper-lazy">
-    </a>
-    <div class="swiper-lazy-preloader align-self-center"></div>
-    <span class="d-none position-absolute top-0 start-0 badge bg-light-subtle text-dark-emphasis shadow-lg border border-secondary-subtle rounded-pill mt-3 ms-3 px-2 fw-light small" data-bundle-offer-product-id="7987596f-d6f6-4394-bae7-222c821ac7a3"></span>
-    </div>
-    </div>
-    <div class="card-body list-group list-group-flush px-0 border-0 py-0">
-    <h2 class="list-group-item border-0 border-secondary border-opacity-10 lh-base h6 py-1 mb-0">
-    <a href="/products/عويدي-مسمار" title="مسمار ( عويدي )" class="text-dark-emphasis">
-    مسمار ( عويدي )
-    </a>
-    </h2>
-    </div>
-    <div class="border-0 border-secondary border-opacity-10 px-3 py-1 d-flex flex-wrap justify-content-start align-items-center gap-2">
-    <div class="text-start overflow-hidden d-inline-block small">
-    <strong class="fw-bold text-body">18.00 ر.س </strong>
-    </div>
-    </div>
-    <div class="card-footer bg-transparent border-0">
-    <div class="btn-group btn-group-sm d-grid gap-2">
-    <button type="button" class="btn btn-primary js-add-to-cart" onclick="productCartAddToCart(this,'7987596f-d6f6-4394-bae7-222c821ac7a3')">
-    <i class="ti ti-circle-plus align-middle fs-6" aria-hidden="true"></i>
-    <span class="px-1">أضف إلى السلة</span>
-    <span class="visually-hidden">أضف إلى السلة
-    مسمار ( عويدي )</span>
-    </button>
-    </div>
-    </div>
-    </div>
-    </div>
-    <div class="swiper-slide position-relative">
-    <div class="card card-product bg-transparent border-secondary border-opacity-25 rounded-3 h-100 js-card-item">
-    <div class="js-card-top">
-    <div class="d-flex justify-content-center py-4 js-loaded-spinner">
-    <div class="spinner-border text-primary" role="status">
-    <span class="visually-hidden">...جاري التحميل</span>
-    </div>
-    </div>
-    <div class="d-none overflow-hidden position-relative rounded-top bg-primary bg-opacity-10 zooming js-loaded-image">
-    <a href="/products/زعفران-سوبر-نقيل" title="زعفران سوبر نقيل" class="css-thumbnail">
-    <img src="https://media.zid.store/thumbs/dfa93bae-7aed-4652-ae90-62783e980848/58b88a40-0e8b-4c56-afbf-c73d8e13b8e2-thumbnail-1000x1000-70.jpg" alt="زعفران سوبر نقيل" class="mx-auto card-img-top rounded-0 img-fluid swiper-lazy">
-    </a>
-    <div class="swiper-lazy-preloader align-self-center"></div>
-    <span class="d-none position-absolute top-0 start-0 badge bg-light-subtle text-dark-emphasis shadow-lg border border-secondary-subtle rounded-pill mt-3 ms-3 px-2 fw-light small" data-bundle-offer-product-id="f35a48ba-679e-4e2e-b68b-d1310745711f"></span>
-    </div>
-    </div>
-    <div class="card-body list-group list-group-flush px-0 border-0 py-0">
-    <h2 class="list-group-item border-0 border-secondary border-opacity-10 lh-base h6 py-1 mb-0">
-    <a href="/products/زعفران-سوبر-نقيل" title="زعفران سوبر نقيل" class="text-dark-emphasis">
-    زعفران سوبر نقيل
-    </a>
-    </h2>
-    </div>
-    <div class="border-0 border-secondary border-opacity-10 px-3 py-1 d-flex flex-wrap justify-content-start align-items-center gap-2">
-    <div class="text-start overflow-hidden d-inline-block small">
-    <strong class="fw-bold text-body">43.00 ر.س </strong>
-    </div>
-    </div>
-    <div class="card-footer bg-transparent border-0">
-    <div class="btn-group btn-group-sm d-grid gap-2">
-    <button type="button" class="btn btn-primary js-add-to-cart" onclick="productCartAddToCart(this,'f35a48ba-679e-4e2e-b68b-d1310745711f')">
-    <i class="ti ti-circle-plus align-middle fs-6" aria-hidden="true"></i>
-    <span class="px-1">أضف إلى السلة</span>
-    <span class="visually-hidden">أضف إلى السلة
-    زعفران سوبر نقيل</span>
-    </button>
-    </div>
-    </div>
-    </div>
-    </div>
-    <div class="swiper-slide position-relative">
-    <div class="card card-product bg-transparent border-secondary border-opacity-25 rounded-3 h-100 js-card-item">
-    <div class="js-card-top">
-    <div class="d-flex justify-content-center py-4 js-loaded-spinner">
-    <div class="spinner-border text-primary" role="status">
-    <span class="visually-hidden">...جاري التحميل</span>
-    </div>
-    </div>
-    <div class="d-none overflow-hidden position-relative rounded-top bg-primary bg-opacity-10 zooming js-loaded-image">
-    <a href="/products/هيل-هندي" title="هيل هندي درجة أولى" class="css-thumbnail">
-    <img src="https://media.zid.store/thumbs/dfa93bae-7aed-4652-ae90-62783e980848/4d4501ba-ba41-47d3-b707-e103d0d5bc63-thumbnail-1000x1000-70.jpg" alt="هيل هندي درجة أولى" class="mx-auto card-img-top rounded-0 img-fluid swiper-lazy">
-    </a>
-    <div class="swiper-lazy-preloader align-self-center"></div>
-    <span class="d-none position-absolute top-0 start-0 badge bg-light-subtle text-dark-emphasis shadow-lg border border-secondary-subtle rounded-pill mt-3 ms-3 px-2 fw-light small" data-bundle-offer-product-id="bb821808-1c22-4cbf-ba02-b210939f759d"></span>
-    </div>
-    </div>
-    <div class="card-body list-group list-group-flush px-0 border-0 py-0">
-    <h2 class="list-group-item border-0 border-secondary border-opacity-10 lh-base h6 py-1 mb-0">
-    <a href="/products/هيل-هندي" title="هيل هندي درجة أولى" class="text-dark-emphasis">
-    هيل هندي درجة أولى
-    </a>
-    </h2>
-    </div>
-    <div class="border-0 border-secondary border-opacity-10 px-3 py-1 d-flex flex-wrap justify-content-start align-items-center gap-2">
-    <div class="text-start overflow-hidden d-inline-block small">
-    <strong class="fw-bold text-body">19.00 ر.س </strong>
-    </div>
-    </div>
-    <div class="card-footer bg-transparent border-0">
-    <div class="btn-group btn-group-sm d-grid gap-2">
-    <button type="button" class="btn btn-primary js-add-to-cart" onclick="productCartAddToCart(this,'bb821808-1c22-4cbf-ba02-b210939f759d')">
-    <i class="ti ti-circle-plus align-middle fs-6" aria-hidden="true"></i>
-    <span class="px-1">أضف إلى السلة</span>
-    <span class="visually-hidden">أضف إلى السلة
-    هيل هندي درجة أولى</span>
-    </button>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    </section> -->
-    
+
     <section section-id="a0e492f1-7025-4e74-9759-de583b9d2113" class="container-fluid g-0 css-slider  reveal-fx reveal-fx--clip-y" data-reveal-fx-delay="100">
     <div id="hero-slider-a0e492f1-7025-4e74-9759-de583b9d2113" class="carousel slide carousel-fade" data-bs-config="{'interval':5000}, 'touch': true" data-bs-ride="true">
     <div class="carousel-inner">
@@ -1960,76 +1231,8 @@ document.addEventListener('DOMContentLoaded', function() {
         
         <script src="https://www.31-agency.com/MainSite/Requirements/JS/slick.min.js"></script>
         <script src="https://www.31-agency.com/MainSite/Requirements/JS/javascript.js"></script>
-        <script>
-            function PlayMusic(el) {
-                if (el.hasClass('Stoped')) {
-                    document.getElementById('Music').play();
-                    el.removeClass('Stoped')
-                    el.addClass('Playing')
-                    el.find('img').attr('src', 'https://www.31-agency.com/MainSite/Requirements/IMG/Play.png')
-                } else if (el.hasClass('Playing')) {
-                    document.getElementById('Music').pause();
-                    el.removeClass('Playing')
-                    el.addClass('Stoped')
-                    el.find('img').attr('src', 'https://www.31-agency.com/MainSite/Requirements/IMG/Mutre.png')
-                }
-            }
-        
-                $(document).mousemove(function (e) {
-                $('.MousePlanet').offset({
-                    left: e.pageX,
-                    top: e.pageY + 0
-                });
-            });
-            
-                document.onkeydown = (e) => {
-                if (e.key == 123) {
-                    e.preventDefault();
-                }
-                if (e.ctrlKey && e.shiftKey && e.key == 'I') {
-                    e.preventDefault();
-                }
-                if (e.ctrlKey && e.shiftKey && e.key == 'C') {
-                    e.preventDefault();
-                }
-                if (e.ctrlKey && e.shiftKey && e.key == 'J') {
-                    e.preventDefault();
-                }
-                if (e.ctrlKey && e.key == 'U') {
-                    e.preventDefault();
-                }
-            };
-        
-            //Disable F12
-            $(document).keydown(function (event) {
-                if (event.keyCode == 123) { // Prevent F12
-                    return false;
-                } else if (event.ctrlKey && event.shiftKey && event.keyCode == 73) { // Prevent Ctrl+Shift+I
-                    return false;
-                }
-            });
-            //Disable right click
-            $(document).on("contextmenu", function (e) {
-                e.preventDefault();
-            });
-        
-        
-        </script>
-        
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-SXBWYJJD4P"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-        
-            gtag('config', 'G-SXBWYJJD4P');
-        </script>
-            <script>
-                $(window).on('load', function () {
-                                        });
-            </script>
 
-        
+            <!-- <script defer src="./detail.js" ></script> -->
+            <script  defer src="./Front-End/JS/app.js"></script>
     </body>
     </html>
